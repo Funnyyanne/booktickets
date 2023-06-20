@@ -49,7 +49,7 @@ class TicketScreen extends StatelessWidget {
                 margin: EdgeInsets.symmetric(horizontal: 15),
                 child: Column(
                   children: [
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         AppColumnLayout(
@@ -73,7 +73,7 @@ class TicketScreen extends StatelessWidget {
                       width: 5,
                     ),
                     Gap(AppLayout.getHeigh(20)),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         AppColumnLayout(

@@ -134,7 +134,7 @@ class SearchScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(
-                                    width: 18, color: Color(0xFF189999)),
+                                    width: 18, color: const Color(0xFF189999)),
                                 color: Colors.transparent),
                           ))
                     ],

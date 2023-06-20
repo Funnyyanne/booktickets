@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const Gap(40),
                 const AppDoubleTextWidget(
-                    bigText: 'Upcoming Fligs', smallText: 'view all')
+                    bigText: 'Upcoming Flights', smallText: 'view all')
               ],
             ),
           ),
@@ -90,7 +90,7 @@ class HomeScreen extends StatelessWidget {
           Gap(AppLayout.getHeigh(15)),
           Container(
               padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: AppDoubleTextWidget(
+              child: const AppDoubleTextWidget(
                   bigText: 'Hotels', smallText: 'view all')),
           Gap(AppLayout.getHeigh(15)),
           SingleChildScrollView(

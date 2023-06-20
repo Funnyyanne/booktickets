@@ -1,7 +1,7 @@
 import 'package:booktrickets/screens/home_screen.dart';
+import 'package:booktrickets/screens/profile_screen.dart';
 import 'package:booktrickets/screens/search_screen.dart';
 import 'package:booktrickets/screens/ticket_screen.dart';
-import 'package:booktrickets/screens/ticket_view.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,7 @@ class _BootomBarState extends State<BootomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('profile')
+    const ProfileScreen()
   ];
 
   void _onItemTapped(int index) {
