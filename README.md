@@ -1,6 +1,6 @@
 # booktrickets
 
-A booktrickets Flutter project.
+A Flutter project for Beginners to Advanced
 
 ## Getting Started
 
