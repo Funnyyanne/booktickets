@@ -55,13 +55,13 @@ class TicketScreen extends StatelessWidget {
                         AppColumnLayout(
                           firstText: 'Flutter DB',
                           secondText: 'Passenger',
-                          alignment: MainAxisAlignment.start,
+                          alignment: CrossAxisAlignment.start,
                           isColor: false,
                         ),
                         AppColumnLayout(
                           firstText: '5221 478566',
                           secondText: 'Passport',
-                          alignment: MainAxisAlignment.end,
+                          alignment: CrossAxisAlignment.end,
                           isColor: false,
                         )
                       ],
@@ -79,13 +79,13 @@ class TicketScreen extends StatelessWidget {
                         AppColumnLayout(
                           firstText: '0055 444 77147',
                           secondText: 'NUmber of E ticket',
-                          alignment: MainAxisAlignment.start,
+                          alignment: CrossAxisAlignment.start,
                           isColor: false,
                         ),
                         AppColumnLayout(
                           firstText: 'B2SG28',
                           secondText: 'Booking code',
-                          alignment: MainAxisAlignment.end,
+                          alignment: CrossAxisAlignment.end,
                           isColor: false,
                         )
                       ],
@@ -116,7 +116,7 @@ class TicketScreen extends StatelessWidget {
                         const AppColumnLayout(
                           firstText: '\$299.88',
                           secondText: 'Price',
-                          alignment: MainAxisAlignment.end,
+                          alignment: CrossAxisAlignment.end,
                           isColor: false,
                         )
                       ],
