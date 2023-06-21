@@ -25,7 +25,6 @@ class _BootomBarState extends State<BootomBar> {
     setState(() {
       _selectIndex = index;
     });
-    print('${_selectIndex}');
   }
 
   @override
@@ -33,25 +32,27 @@ class _BootomBarState extends State<BootomBar> {
     return Scaffold(
       body: Center(child: _widgetOption[_selectIndex]),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectIndex,
         onTap: _onItemTapped,
         elevation: 10,
         showSelectedLabels: false,
         showUnselectedLabels: false,
+        type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.blueGrey,
-        unselectedItemColor: const Color(0xFF526480),
+        unselectedItemColor: const Color(0xFF526488),
         items: const [
           BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
-              label: 'home'),
+              label: 'Home'),
           BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_search_regular),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
-              label: 'search'),
+              label: 'Search'),
           BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_ticket_regular),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
-              label: 'ticket'),
+              label: 'Ticket'),
           BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_person_regular),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
