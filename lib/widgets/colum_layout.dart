@@ -7,7 +7,7 @@ import '../utils/app_styles.dart';
 
 class AppColumnLayout extends StatelessWidget {
   final String firstText, secondText;
-  final MainAxisAlignment alignment;
+  final CrossAxisAlignment alignment;
   final bool? isColor;
 
   const AppColumnLayout(
@@ -21,7 +21,7 @@ class AppColumnLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: alignment,
+      crossAxisAlignment: alignment,
       children: [
         Text(firstText,
             style: isColor == null
